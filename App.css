@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.tot-box{
+  height: 70%;
+  width: 20%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.img
+{
+  height: 25%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  height: 8%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 2px dashed rgb(136, 134, 134);
+  border-top: 2px dashed rgb(136, 134, 134);
+}
+p{
+  color: rgb(15, 113, 151);
+  font-weight:600;
+}
+.amount{
+  height: 15%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fromcurr{
+  height: 10%;
+  width: 90%;
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-evenly;
+}
+.tocurr{
+  height: 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+span{
+  width: 80%;
+}
+.output
+{
+  width: 80%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgb(4, 99, 116);
+}
+img{
+  width: 50%;
+  height: 90%;
+}
+input{
+  outline: none;
+   border: none;
+  padding: 3%;
+
+}
+select{
+  border: none;
+  outline: none;
+}
